@@ -22,3 +22,7 @@ usethis::use_git()
 usethis::use_github()
 usethis::create_github_token()
 gitcreds::gitcreds_set()
+
+gert::git_add(".")
+gert::git_commit("Creación y enlace GIT")
+gert::git_push()
