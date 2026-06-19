@@ -17,6 +17,7 @@ dir.create("scripts")
 
 #Enlace con Git y GitHub
 install.packages("usethis")
+install.packages("rlang")
 usethis::use_git()
 usethis::use_github()
 usethis::create_github_token()
